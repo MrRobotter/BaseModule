@@ -39,7 +39,7 @@ public abstract class RxSubscriber<T> extends DisposableSubscriber<T> {
         this.showDialog = showDialog;
 
         progressDialog = new ProgressDialog(context);
-        progressDialog.setMessage("请稍候,正在加载...");
+        progressDialog.setMessage(msg);
         progressDialog.setCancelable(true);
 
 //        progressDialog = new MyLoadingDialog(context, R.style.loading_dialog);// 创建自定义样式dialog
