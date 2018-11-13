@@ -4,7 +4,6 @@ group = 'com.github.MrRobotter'
 android {
     compileSdkVersion 27
     defaultConfig {
-        applicationId "com.joinyon.basemodule"
         minSdkVersion 15
         targetSdkVersion 27
         versionCode 1
